@@ -1,0 +1,14 @@
+INSTALL file 
+
+In order to install the present code, Java and Python need to be in place. In addition, the following dependencies are required. The Java and Python code run separately, since Java is applied to raw sentences and delivers dependency parsed output in SQL format and Python takes that parsed output as input for spectral clustering.
+
+
+DEPENDENCIES:
+
+Python: 
+sklearn 
+scipy
+gensim
+
+JAVA:
+Stanford parser (3.7.)

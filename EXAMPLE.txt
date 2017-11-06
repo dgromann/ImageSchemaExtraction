@@ -1,0 +1,16 @@
+EXAMPLE 
+
+Input: 
+The Council fully intends to continue along that path.
+
+Dependency parsing:
+continue-along-path 
+
+Output (example cluster of several sentences):
+96: ['continue-along', 'continuing-along', 'going-down', 'progress-along', 'set out-on', 'set-on']
+1 continue-along: {'route': 13, 'road': 37, 'path': 94, 'lines': 53}
+2 continuing-along: {'path': 17}
+3 going-down: {'road': 14}
+4 progress-along: {'road': 12, 'path': 11}
+5 set out-on: {'road': 13}
+6 set-on: {'fire': 12, 'road': 12, 'path': 11, 'basis': 45, 'course': 16}
